@@ -1,31 +1,31 @@
-# SAM Light
+# Boilerplate
 
-## Introduction
+Little boilerplate to start a new project with Vite, React, Typescript, Mui, Node, Express, Socket.io
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Docker
 - Docker Compose
 
-### Installation
+## Installation
 
-1. Clone the repository
-2. Run `docker-compose up -d` to start the containers
-3. Open your browser and navigate to `http://localhost`
-4. You should see the boilerplate application running
+Run `docker-compose up -d` to start the containers
+Open your browser and navigate to `http://localhost`
+You should see the boilerplate application running
 
-### Configuration
+## Configuration
 
-The application is configured to use the following environment variables:
+Configuration is done through environment variables
 
-- `PORT`: The port number to use for the server
-- `NODE_ENV`: The environment to use (either `development` or `production`)
+## Production build
+
+Run `npm run build` to build the application
+Then run `npm run start` to start the application
 
 ## More Information
 
-See more docs in the [docs](docs) directory.
+See more docs in the [docs](docs) directory
 
 - [Docker containers](docs/docker.md)
 - [Dependencies](docs/dependencies.md)
+- [Environment variables](docs/env-vars.md)
